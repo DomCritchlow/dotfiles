@@ -1,7 +1,5 @@
-# dotfiles
-
-My personal configuration files for macOS
+# DC dotfiles Mac
 
 ```
-git clone https://github.com/charlesdobson/dotfiles.git && cd dotfiles && source setup.sh
+git clone https://github.com/DomCritchlow/dotfiles.git && cd dotfiles && source setup.sh
 ```
