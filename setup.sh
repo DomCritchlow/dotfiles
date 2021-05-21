@@ -4,6 +4,7 @@ cd "$(dirname "${BASH_SOURCE}")";
 
 # SPECIFY $PATH
 export PATH="/usr/local/bin:$PATH"
+export BASH_SILENCE_DEPRECATION_WARNING=1
 
 git pull origin master;
 
