@@ -33,8 +33,6 @@ echo # newline
 
 # INSTALL BREW CASK APPS
 declare -a cask_apps=(
-    'chatmate-for-whatsapp'
-    'chatmate-for-facebook'
     'docker'
     'google-chrome'
     'keepingyouawake'
@@ -45,7 +43,7 @@ declare -a cask_apps=(
 echo "Installing brew cask apps"
 for cask_app in "${cask_apps[@]}"; do
     echo "      Installing ${cask_app}"
-    brew cask install "$cask_app"
+    brew install "$cask_app"
 done
 echo # newline
 
