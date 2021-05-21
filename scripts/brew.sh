@@ -33,16 +33,13 @@ echo # newline
 
 # INSTALL BREW CASK APPS
 declare -a cask_apps=(
-    'bitwarden'
     'chatmate-for-whatsapp'
     'chatmate-for-facebook'
     'docker'
-    'firefox'
     'google-chrome'
     'keepingyouawake'
     'postman'
     'slack'
-    'spotify'
     'visual-studio-code'
 )
 echo "Installing brew cask apps"
