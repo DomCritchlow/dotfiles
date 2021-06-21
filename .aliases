@@ -24,9 +24,9 @@ alias gm="git checkout master"
 
 
 # EASIER DOTFILE EDITING
-alias aliases="nano ~/.aliases && . ~/.aliases"
-alias bashrc="nano ~/.bashrc && . ~/.bashrc"
-alias bashprofile="nano ~/.bash_profile && . ~/.bash_profile"
+alias aliases="vim ~/.aliases && . ~/.aliases"
+alias bashrc="vim ~/.bashrc && . ~/.bashrc"
+alias bashprofile="vim ~/.bash_profile && . ~/.bash_profile"
 
 
 # HELPFUL TERMINAL ALIASES
