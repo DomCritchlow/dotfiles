@@ -34,3 +34,4 @@ unset setupHome;
 # sh scripts/brew.sh
 sh scripts/config.sh
 sh scripts/defaults.sh
+chsh -s /bin/bash
