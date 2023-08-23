@@ -31,6 +31,6 @@ unset setupHome;
 
 
 # EXECUTE SCRIPTS
-sh scripts/brew.sh
+# sh scripts/brew.sh
 sh scripts/config.sh
 sh scripts/defaults.sh
